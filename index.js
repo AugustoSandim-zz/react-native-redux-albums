@@ -4,10 +4,11 @@ import {
   Text,
   AppRegistry
 } from 'react-native';
+import Header from './src/components/header';
 
 // Create a component
 const App = () => ( 
-  <Text>Some text </Text>
+  <Header />
 );
 
 
